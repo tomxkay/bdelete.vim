@@ -30,11 +30,11 @@ let s:menu_confirm_string = s:get_menu_confirm_string()
 " Set delete and wipeout commands.
 " --------------------
 if !exists('g:close_buffers_bdelete_command')
-  let g:close_buffers_bdelete_command = 'Bdelete'
+  let g:close_buffers_bdelete_command = 'BDelete'
 endif
 
 if !exists('g:close_buffers_bwipeout_command')
-  let g:close_buffers_bwipeout_command = 'Bwipeout'
+  let g:close_buffers_bwipeout_command = 'BWipeout'
 endif
 
 " Commands
